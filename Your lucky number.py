@@ -1,8 +1,8 @@
 from random import seed
 from random import random
 
-def lucky_number(name):
-    number =round(len(name) * random())
-    print("Hello " + name + " your lucky number is " + str(number))
+def numeroSuerte(nombre):
+    numero =round(len(nombre) * random())
+    print("Hola" + nombre + " tu numero de la suerte es" + str(numero))
 
-lucky_number("Carlos")
+numeroSuerte("Carlos")
