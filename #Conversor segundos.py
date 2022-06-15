@@ -1,10 +1,10 @@
 #Conversor segundos
 
-def convert_seconds(seconds):
+def convertir_segundos(segundos):
     """
     Convert seconds to hours, minutes and seconds
     """
-    hours = seconds // 3600
-    minutes = (seconds - hours * 3600) // 60
-    remaining_seconds = seconds - hours * 3600 - minutes * 60
-    return hours, minutes, remaining_seconds
+    horas = segundos // 3600
+    minutos = (segundos - horas * 3600) // 60
+    segundos_restantes = segundos - horas * 3600 - minutos * 60
+    return horas, minutos, segundos_restantes
